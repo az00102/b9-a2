@@ -944,9 +944,9 @@ label {
   .banner-find-now-bar {
     display: flex;
     flex-direction: column;
-    height: 40vh;
-    width: 70vw;
-    flex-direction: column;
+    height: 45%;
+    margin-bottom: 24px;
+    width: 70%;
     align-items: center;
     justify-content: center;
     gap: 16px;
@@ -956,15 +956,19 @@ label {
   .banner-find-now-bar svg {
     position: relative;
     right: 40px;
-    top: -52px;
+    top: -35px;
   }
 
   .banner-find-now-bar input {
     width: 80%;
+    position: relative;
+    top: 18px;
   }
 
   .banner-find-now-bar select {
     width: 80%;
+    position: relative;
+    top: 18px;
   }
   /* banner section end */
 
@@ -1003,10 +1007,15 @@ label {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    position: relative;
   }
   .choose-destination-description p {
-    width: 50%;
+    width: 80%;
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+  .choose-destination-description h1 {
+    font-size: 28px;
   }
   .choose-destination-collage-row1 {
     display: flex;
@@ -1028,28 +1037,32 @@ label {
   .maldives-container {
     width: 90%;
     position: relative;
-    top: -10px;
-    right: -20px;
-    border-radius: 16px solid;
+    top: -70px;
+    right: -25px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
   }
 
   .indonesia-container {
     width: 90%;
     position: relative;
-    top: -10px;
-    right: 5px;
-    border-radius: 16px solid;
+    top: -50px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
   }
   .indonesia-container h3 {
-    position: relative;
-    top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .srilanka-container {
     width: 90%;
     position: relative;
-    top: -60px;
-    right: 10px;
+    top: -50px;
+    right: 18px;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -1058,8 +1071,8 @@ label {
   .North-America-container {
     width: 90%;
     position: relative;
-    top: -30px;
-    right: -1px;
+    top: -25px;
+    right: 5px;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -1068,7 +1081,7 @@ label {
   .Kashmir-container {
     width: 90%;
     position: relative;
-    right: 10px;
+    right: 15px;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -1077,8 +1090,8 @@ label {
   .bangladesh-container {
     width: 90%;
     position: relative;
-    top: 24px;
-    right: -1px;
+    top: 25px;
+    right: 2px;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -1087,8 +1100,8 @@ label {
   .bandarban-container {
     width: 90%;
     position: relative;
-    top: 45px;
-    right: 10px;
+    top: 50px;
+    right: 15px;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -1123,10 +1136,12 @@ label {
 
   /* testimony section start */
   .testimony-dis p {
+    width: 70%;
     margin: 0;
     font-size: 16px;
   }
   .testimony-container {
+    width: 100%;
     position: relative;
     left: 10px;
   }
