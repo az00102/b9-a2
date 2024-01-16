@@ -87,7 +87,6 @@ label {
   align-items: center;
   justify-content: center;
   margin-top: 3.47%;
-  border: 1px solid;
   border-radius: 16px;
   height: fit-content;
   height: 70vh;
@@ -184,7 +183,7 @@ label {
 
 .banner-find-now-bar svg {
   position: relative;
-  right: 165px;
+  right: 150px;
 }
 
 .banner-selectors {
@@ -286,7 +285,7 @@ label {
 }
 
 .choose-destination-description p {
-  width: 54.65%;
+  margin: 0 25%;
   color: rgba(19, 19, 24, 0.7);
   text-align: center;
   font-family: Mulish;
@@ -300,7 +299,6 @@ label {
 .choose-destination-collage-row1 {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .maldives-container {
@@ -343,16 +341,16 @@ label {
 }
 
 .indonesia-container h3 {
-    position: relative;
-    top: 45%;
-    color: #fff;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
+  position: relative;
+  top: 45%;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 
 .choose-destination-collage-row2 {
   display: flex;
@@ -362,148 +360,278 @@ label {
 }
 
 .srilanka-container {
-    background-image: url("Images/Rectangle 6.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 900px;
-    height: fit-content;
-    height: 40vh;
-    margin-left: 24px;
-    position: relative;
-    right: 24px;
-  }
+  background-image: url("Images/Rectangle 6.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 900px;
+  height: fit-content;
+  height: 40vh;
+  margin-left: 24px;
+  position: relative;
+  right: 24px;
+}
 
-  .srilanka-container h3 {
-    position: relative;
-    top: 45%;
-    color: #fff;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
+.srilanka-container h3 {
+  position: relative;
+  top: 45%;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 
 .North-America-container {
-    background-image: url("Images/Rectangle 7.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 1140px;
-    height: 40vh;
-  }
+  background-image: url("Images/Rectangle 7.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 1140px;
+  height: 40vh;
+}
 
-  .North-America-container h3 {
-    position: relative;
-    top: 45%;
-    color: #fff;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
+.North-America-container h3 {
+  position: relative;
+  top: 45%;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 
 .Kashmir-container {
-    background-image: url("Images/Rectangle 9.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 46%;
-    height: fit-content;
-    height: 40vh;
-    margin-left: 24px;
-  }
+  background-image: url("Images/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 46%;
+  height: fit-content;
+  height: 40vh;
+  margin-left: 24px;
+}
 
-  .Kashmir-container h3 {
-    position: relative;
-    top: 45%;
-    color: #fff;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
+.Kashmir-container h3 {
+  position: relative;
+  top: 45%;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 
-  .choose-destination-collage-row3 {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .bangladesh-container {
-    background-image: url("Images/Rectangle 11.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    /* width: 49%; */
-    width: 50%;
-    height: 40vh;
-  }
-  
-  .bangladesh-container h3 {
-    position: relative;
-    top: 45%;
-    color: #fff;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-  }
-  
-  .bandarban-container {
-    background-image: url("Images/Rectangle 10.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 71%;
-    height: 40vh;
-    margin-left: 24px;
-    position: relative;
-    top: 4px;
-  }
-  
-  .bandarban-container h3 {
-      position: relative;
-      top: 45%;
-      color: #fff;
-      text-align: center;
-      font-family: Mulish;
-      font-size: 38px;
-      font-style: normal;
-      font-weight: 800;
-      line-height: normal;
-    }
+.choose-destination-collage-row3 {
+  display: flex;
+  justify-content: space-between;
+}
 
+.bangladesh-container {
+  background-image: url("Images/Rectangle 11.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* width: 49%; */
+  width: 50%;
+  height: 40vh;
+}
 
+.bangladesh-container h3 {
+  position: relative;
+  top: 45%;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.bandarban-container {
+  background-image: url("Images/Rectangle 10.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 71%;
+  height: 40vh;
+  margin-left: 24px;
+  position: relative;
+  top: 4px;
+}
+
+.bandarban-container h3 {
+  position: relative;
+  top: 45%;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 /* choose destination section end */
+
+/* why choose us section start */
+.why-choose-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.features-row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.why-choose-us-description {
+  text-align: center;
+}
+
+.why-choose-us-description p {
+  margin: 0 25%;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 48px;
+}
+
+.why-choose-us-description h1 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.hand-picked-hotel-container {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+  width: 49%;
+}
+
+.hand-picked-hotel-container h3 {
+  margin-top: 32px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.hand-picked-hotel-container p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.world-class-service-container {
+  width: 49%;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 32px;
+}
+
+.world-class-service-container h3 {
+  margin-top: 32px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.world-class-service-container p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.best-price-container {
+  width: 49%;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 32px;
+  margin: 24px;
+  position: relative;
+  left: 25%;
+}
+
+.best-price-container h3 {
+    margin-top: 32px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+  .best-price-container p{
+    color: #5a5a5d;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+  }
+
+/* why choose us section end */
 
 /* Media Query for small screens */
 @media only screen and (max-width: 600px) {
   /* header section start*/
+  .nav-container {
+    width: 100%;
+    display: flex;
+  }
   .nav-container ul {
     position: fixed;
     top: 80px;
     background: rgb(182, 132, 89);
-    height: 10%;
-
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -587,47 +715,65 @@ label {
   .tour-plan-container {
     display: flex;
     flex-direction: column;
-    width: 130vh;
+    justify-content: center;
+    align-items: center;
+    width: auto;
     position: relative;
     left: 20px;
+    height: auto;
+  }
+  .tour-plan-description {
+    width: 85%;
   }
 
   .tour-plan-description h1 {
     text-align: left;
   }
 
+  .tour-plan-description ul,
+  li {
+    padding: 0px;
+  }
+
   .tour-plan-image img {
     margin-top: 24px;
-    width: 65vh;
+    width: 100%;
     height: 442px;
-    flex-shrink: 0;
   }
   /* Tour Plan section style end */
 
   /* choose destination section start */
+  .choose-destination-container {
+    width: 100%;
+  }
   .choose-destination-description {
     display: flex;
     flex-direction: column;
-    margin-top: 600px;
+    margin-top: 50px;
+    margin-bottom: 24px;
+    position: relative;
   }
-  .choose-destination-collage-row1{
+  .choose-destination-description p {
+    width: 50%;
+  }
+  .choose-destination-collage-row1 {
     display: flex;
     flex-direction: column;
   }
 
-  .choose-destination-collage-row2{
+  .choose-destination-collage-row2 {
     display: flex;
     flex-direction: column;
   }
 
-  .choose-destination-collage-row3{
+  .choose-destination-collage-row3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .maldives-container{
+  .maldives-container {
     width: 65vh;
     position: relative;
     top: -10px;
@@ -635,65 +781,95 @@ label {
     border-radius: 16px solid;
   }
 
-  .indonesia-container{
+  .indonesia-container {
     width: 65vh;
     position: relative;
     top: -10px;
     right: 5px;
     border-radius: 16px solid;
   }
-  .indonesia-container h3{
+  .indonesia-container h3 {
     position: relative;
     top: 130px;
   }
 
-  .srilanka-container{
+  .srilanka-container {
     width: 65vh;
     position: relative;
     top: -60px;
-    right: 9px;
+    right: 10px;
     background-size: cover;
     background-position: center;
-    border-radius: 16px solid;
+    border-radius: 16px;
   }
 
-  .North-America-container{
+  .North-America-container {
     width: 65vh;
     position: relative;
     top: -30px;
-    right: -3px;
+    right: -1px;
     background-size: cover;
     background-position: center;
-    border-radius: 16px solid;
+    border-radius: 16px;
   }
 
-  .Kashmir-container{
+  .Kashmir-container {
     width: 65vh;
     position: relative;
-    right: 9px;
+    right: 10px;
     background-size: cover;
     background-position: center;
-    border-radius: 16px solid;
+    border-radius: 16px;
   }
 
-  .bangladesh-container{
+  .bangladesh-container {
     width: 65vh;
     position: relative;
     top: 24px;
-    right: -3px;
+    right: -1px;
     background-size: cover;
     background-position: center;
-    border-radius: 16px solid;
+    border-radius: 16px;
   }
 
-  .bandarban-container{
+  .bandarban-container {
     width: 65vh;
     position: relative;
     top: 45px;
-    right: 9px;
+    right: 10px;
     background-size: cover;
     background-position: center;
-    border-radius: 16px solid;
+    border-radius: 16px;
+    margin-bottom: 24px;
   }
   /* choose destination section end */
+
+  /* why choose us section start */
+  .features-row1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .why-choose-us-description h3{
+    width: 100%;
+  }
+  .hand-picked-hotel-container{
+    width: 80%;
+    margin-bottom: 16px;
+  }
+  .world-class-service-container{
+    width: 80%;
+  }
+
+  .best-price-container{
+    width: 81%;
+    position: relative;
+    left: 5%;
+  }
+  /* why choose us section end */
+
+  /* testimony section start */
+  
+  /* testimony section end */
 }
