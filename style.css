@@ -502,7 +502,7 @@ label {
     position: fixed;
     top: 80px;
     background: rgb(182, 132, 89);
-    height: 30%;
+    height: 10%;
 
     display: flex;
     flex-direction: column;
@@ -605,6 +605,95 @@ label {
   /* Tour Plan section style end */
 
   /* choose destination section start */
+  .choose-destination-description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 600px;
+  }
+  .choose-destination-collage-row1{
+    display: flex;
+    flex-direction: column;
+  }
 
+  .choose-destination-collage-row2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .choose-destination-collage-row3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .maldives-container{
+    width: 65vh;
+    position: relative;
+    top: -10px;
+    right: -20px;
+    border-radius: 16px solid;
+  }
+
+  .indonesia-container{
+    width: 65vh;
+    position: relative;
+    top: -10px;
+    right: 5px;
+    border-radius: 16px solid;
+  }
+  .indonesia-container h3{
+    position: relative;
+    top: 130px;
+  }
+
+  .srilanka-container{
+    width: 65vh;
+    position: relative;
+    top: -60px;
+    right: 9px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px solid;
+  }
+
+  .North-America-container{
+    width: 65vh;
+    position: relative;
+    top: -30px;
+    right: -3px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px solid;
+  }
+
+  .Kashmir-container{
+    width: 65vh;
+    position: relative;
+    right: 9px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px solid;
+  }
+
+  .bangladesh-container{
+    width: 65vh;
+    position: relative;
+    top: 24px;
+    right: -3px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px solid;
+  }
+
+  .bandarban-container{
+    width: 65vh;
+    position: relative;
+    top: 45px;
+    right: 9px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px solid;
+  }
   /* choose destination section end */
 }
