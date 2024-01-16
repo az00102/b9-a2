@@ -193,6 +193,78 @@ label {
 
 /* banner section end */
 
+/* Tour Plan section style start */
+
+.tour-plan-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.47%;
+  height: 70vh;
+}
+
+.tour-plan-description {
+  width: 50%;
+}
+
+.tour-plan-description h1 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.tour-plan-description p {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.tour-plan-description ul{
+    margin: 30px;
+}
+
+.tour-plan-description
+li {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding: 15px;
+}
+
+.btn {
+  border-radius: 8px;
+  background: var(--primary-color);
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+/* Tour Plan section style end */
+
+/* choose destination section start */
+  
+  /* choose destination section end */
+
 /* Media Query for small screens */
 @media only screen and (max-width: 600px) {
   /* header section start*/
@@ -200,13 +272,13 @@ label {
     position: fixed;
     top: 80px;
     background: rgb(182, 132, 89);
-    height: 20vh;
-    width: 100%;
+    height: 30%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     left: -100%;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
   }
 
   #menu-click {
@@ -243,7 +315,6 @@ label {
 
   .banner-details {
     position: relative;
-    
   }
 
   .banner-details h1 {
@@ -266,17 +337,44 @@ label {
     padding-right: 35px;
   }
 
-  .banner-find-now-bar svg{
-    position: relative;    
+  .banner-find-now-bar svg {
+    position: relative;
     right: 40px;
     top: -52px;
   }
 
-  .banner-find-now-bar input{
+  .banner-find-now-bar input {
     width: 80%;
   }
 
-  .banner-find-now-bar select{
+  .banner-find-now-bar select {
     width: 80%;
   }
+  /* banner section end */
+
+  /* Tour Plan section style start*/
+
+  .tour-plan-container {
+    display: flex;
+    flex-direction: column;
+    width: 130vh;
+    position: relative;
+    left: 20px;
+  }
+
+  .tour-plan-description h1 {
+    text-align: left;
+  }
+
+  .tour-plan-image img {
+    margin-top: 24px;
+    width: 65vh;
+    height: 442px;
+    flex-shrink: 0;
+  }
+  /* Tour Plan section style end */
+
+  /* choose destination section start */
+
+  /* choose destination section end */
 }
