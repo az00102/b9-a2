@@ -778,6 +778,9 @@ label {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: end;
   width: 58%;
   border-radius: 16px;
 }
@@ -794,8 +797,8 @@ label {
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 70%;
-  left: 58%;
+  top: -50px;
+  right: 7px;
 }
 
 .save-up h3 {
@@ -831,6 +834,13 @@ label {
 
 .faf {
   margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
 }
 
 .footer-description {
@@ -858,6 +868,10 @@ label {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+
+.footer-icons{
+    cursor: pointer;
 }
 
 /* footer section end */
@@ -912,12 +926,12 @@ label {
   /* banner section start */
   .banner-container {
     margin: 16px;
-    width: 95vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .banner-details {
-    position: relative;
-  }
 
   .banner-details h1 {
     font-size: 28px;
@@ -974,14 +988,9 @@ label {
     text-align: left;
   }
 
-  .tour-plan-description ul,
-  li {
-    padding: 0px;
-  }
-
   .tour-plan-image img {
     margin-top: 24px;
-    width: 100%;
+    width: 90%;
     height: 442px;
   }
   /* Tour Plan section style end */
@@ -1017,7 +1026,7 @@ label {
   }
 
   .maldives-container {
-    width: 65vh;
+    width: 90%;
     position: relative;
     top: -10px;
     right: -20px;
@@ -1025,7 +1034,7 @@ label {
   }
 
   .indonesia-container {
-    width: 65vh;
+    width: 90%;
     position: relative;
     top: -10px;
     right: 5px;
@@ -1037,7 +1046,7 @@ label {
   }
 
   .srilanka-container {
-    width: 65vh;
+    width: 90%;
     position: relative;
     top: -60px;
     right: 10px;
@@ -1047,7 +1056,7 @@ label {
   }
 
   .North-America-container {
-    width: 65vh;
+    width: 90%;
     position: relative;
     top: -30px;
     right: -1px;
@@ -1057,7 +1066,7 @@ label {
   }
 
   .Kashmir-container {
-    width: 65vh;
+    width: 90%;
     position: relative;
     right: 10px;
     background-size: cover;
@@ -1066,7 +1075,7 @@ label {
   }
 
   .bangladesh-container {
-    width: 65vh;
+    width: 90%;
     position: relative;
     top: 24px;
     right: -1px;
@@ -1076,7 +1085,7 @@ label {
   }
 
   .bandarban-container {
-    width: 65vh;
+    width: 90%;
     position: relative;
     top: 45px;
     right: 10px;
